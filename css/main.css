@@ -21,14 +21,15 @@ h1 {
   color: #b20953;
 
   background-color: #ffe500;
+  font-size: 3rem;
   display: block;
   padding: .5em;
 }
 
-nav ul {
+nav ul li {
   list-style-type: none;
   text-decoration: none;
-  display: inline;
+  display: inline-block;
 }
 
 nav .home {
@@ -79,11 +80,21 @@ nav .currants {
   padding: .3rem;
 }
 
+img {
+  display: inline-block;
+}
+
 a {
   font-family: Georgia;
   list-style-type: none;
   text-decoration: none;
+
   background-color: #2f2d13;
+  border: 1px solid #2f2d13;
+  font-size: 1.125rem;
+  border-radius: 4px;
+  display: inline;
+  padding: .3rem .75em;
 }
 
 a:hover {
@@ -91,11 +102,12 @@ a:hover {
   border: 1px solid #cc1465;
   border-radius: 4px;
   display: inline;
-  padding: .3rem;
+  padding: .3rem .75em;
 }
 
 h2 {
   font-family: Sigmar One, cursive;
+  font-size: 1.875rem;
   text-align: left;
   color: #b20953;
 }
@@ -107,6 +119,7 @@ p {
 footer {
   background-color: #ffe500;
   text-align: center;
+  font-size: .75rem;
   display: block;
   padding: .5em;
 }
