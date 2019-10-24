@@ -10,6 +10,11 @@ header {
   background-color: white;
 }
 
+body {
+  line-height: 1.5;
+  margin: .3em;
+}
+
 h1 {
   font-family: Sigmar One, cursive;
   text-align: center;
@@ -86,7 +91,7 @@ a:hover {
   border: 1px solid #cc1465;
   border-radius: 4px;
   display: inline;
-  padding: 3rem;
+  padding: .3rem;
 }
 
 h2 {
