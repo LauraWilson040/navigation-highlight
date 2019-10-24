@@ -1,1 +1,46 @@
-font-family: 'Sigmar One', cursive;
+html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+}
+
+header {
+  background-color: #white;
+}
+
+h1 {
+  font-family: 'Sigmar One', cursive;
+  text-align: center;
+  color: #b20953;
+}
+
+nav .home {
+
+}
+
+nav .blueberries {
+
+}
+
+nav .grapes {
+
+}
+
+nav .red-currants {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+footer {
+
+}
