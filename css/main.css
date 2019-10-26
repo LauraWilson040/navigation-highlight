@@ -8,6 +8,16 @@ html {
 
 header {
   background-color: white;
+  margin-top: inherit;
+  margin-right: auto;
+  margin-bottom: inherit;
+  margin-left: auto;
+}
+
+.menu {
+  background-color: #ffe500;
+  display: block;
+  padding: .2em;
 }
 
 body {
@@ -23,13 +33,14 @@ h1 {
   background-color: #ffe500;
   font-size: 3rem;
   display: block;
-  padding: .5em;
 }
 
 nav ul li {
+  background-color: #ffe500;
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
+  font-size: 1.875rem;
 }
 
 nav .home {
@@ -115,6 +126,7 @@ h2 {
 
 p {
   font-family: Georgia;
+  font-size: 1.125rem;
 }
 
 footer {
