@@ -41,6 +41,7 @@ nav ul li {
   text-decoration: none;
   display: inline-block;
   font-size: 1.875rem;
+  text-align: center;
 }
 
 nav .home {
@@ -51,8 +52,16 @@ nav .home {
   background-color: #b2a212;
   border: 1px solid #b2a212;
   border-radius: 4px;
-  display: inline-block;
+  display: block;
   padding: .3rem;
+
+  text-align: center;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 nav .blueberries {
@@ -63,8 +72,16 @@ nav .blueberries {
   background-color: #b2a212;
   border: 1px solid #b2a212;
   border-radius: 4px;
-  display: inline-block;
+  display: block;
   padding: .3rem;
+
+  text-align: center;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 nav .grapes {
@@ -75,8 +92,16 @@ nav .grapes {
   background-color: #b2a212;
   border: 1px solid #b2a212;
   border-radius: 4px;
-  display: inline-block;
+  display: block;
   padding: .3rem;
+
+  text-align: center;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 nav .currants {
@@ -87,13 +112,26 @@ nav .currants {
   background-color: #b2a212;
   border: 1px solid #b2a212;
   border-radius: 4px;
-  display: inline-block;
+  display: block;
   padding: .3rem;
+
+  text-align: center;
+  position: relative;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-img {
-  display: inline-block;
-  width: inherit;
+figure {
+  display: block;
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 a {
