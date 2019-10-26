@@ -17,12 +17,15 @@ header {
 .menu {
   background-color: #ffe500;
   display: block;
-  padding: .2em;
+  padding: 0 .75em;
 }
 
 body {
   line-height: 1.5;
-  margin: .3em;
+  margin-left: .3em;
+  margin-right: .3em;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 h1 {
@@ -32,6 +35,8 @@ h1 {
   background-color: #ffe500;
   font-size: 3rem;
   display: block;
+  margin-top: .3em;
+  margin-bottom: .3em;
 }
 
 nav ul li {
@@ -41,6 +46,8 @@ nav ul li {
   display: inline-block;
   font-size: 1.875rem;
   text-align: center;
+  margin-top: .3em;
+  margin-bottom: .3em;
 }
 
 nav .home {
@@ -96,8 +103,8 @@ figure {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: .3em;
+  margin-bottom: .3em;
 }
 
 img {
@@ -105,8 +112,8 @@ img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: .3em;
+  margin-bottom: .3em;
 }
 
 a {
