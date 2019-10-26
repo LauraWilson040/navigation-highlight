@@ -141,11 +141,15 @@ h2 {
   font-size: 1.875rem;
   text-align: left;
   color: #b20953;
+  margin-top: .75em;
+  margin-bottom: .75em;
 }
 
 p {
   font-family: Georgia;
   font-size: 1.125rem;
+  margin-top: .75em;
+  margin-bottom: .75em;
 }
 
 footer {
