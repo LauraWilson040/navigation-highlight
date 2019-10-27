@@ -51,6 +51,9 @@ nav ul li {
   margin-right: auto;
   margin-top: auto;
   margin-bottom: .3em;
+
+  left: auto;
+  right: auto;
 }
 
 nav .home {
