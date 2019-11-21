@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
-  background-color: white;
+  font-family: "Sigmar One", cursive;
+  background-color: #fff;
   line-height: 1.5;
 }
 
@@ -19,39 +20,36 @@ body {
 }
 
 h1 {
-  font-family: "Sigmar One", cursive;
-  text-align: center;
-
   background-color: #ffe500;
   font-size: 3rem;
   color: #b20953;
+
   display: block;
-
-  margin-bottom: .3em;
-}
-
-nav ul li {
-  background-color: #ffe500;
-  font-size: 1.875rem;
   text-align: center;
 
-  list-style-type: none;
-  text-decoration: none;
-  display: inline-block;
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
   margin-bottom: .3em;
-
-  left: auto;
-  right: auto;
 }
 
-nav .home {
+nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+li {
   background-color: #b2a212;
   border: 1px solid #b2a212;
   border-radius: 4px;
+  color: white;
+
+  display: block;
+  padding: .3rem;
+}
+
+nav .home {
+  background-color: #b20953;
+  border: 1px solid #b20953;
+  border-radius: 3px;
   color: white;
 
   list-style-type: none;
@@ -65,7 +63,7 @@ nav .home {
 nav .blueberries {
   background-color: #b2a212;
   border: 1px solid #b2a212;
-  border-radius: 4px;
+  border-radius: 3px;
   color: white;
 
   list-style-type: none;
@@ -79,7 +77,7 @@ nav .blueberries {
 nav .grapes {
   background-color: #b2a212;
   border: 1px solid #b2a212;
-  border-radius: 4px;
+  border-radius: 3px;
   color: white;
 
   list-style-type: none;
@@ -93,7 +91,7 @@ nav .grapes {
 nav .currants {
   background-color: #b2a212;
   border: 1px solid #b2a212;
-  border-radius: 4px;
+  border-radius: 3px;
   color: white;
 
   list-style-type: none;
@@ -148,7 +146,6 @@ a:hover {
 }
 
 h2 {
-  font-family: "Sigmar One", cursive;
   font-size: 1.875rem;
   text-align: left;
   color: #b20953;
